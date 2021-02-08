@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 16px);
+}
+
+.header {
+  height: 100px;
+  background-color: yellow;
+}
+.footer {
+  height: 100px;
+  background-color: green;
+}
+
+.tabs {
+  height: 100%;
+}
+
+.tab_buttons {
+  display: flex;
+}
+
+.btn {
+  width: 100%;
+  margin: 0 3px 0 3px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .header {
+    background-color: lightyellow;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .footer {
+    background-color: lightpink;
+  }
+}
