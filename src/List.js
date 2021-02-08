@@ -12,7 +12,7 @@ const List = () => {
         setItems([...items, generateRandomString()])
       },
       5000,
-      { leading: true }
+      { leading: true, trailing: false }
     ),
     []
   )
